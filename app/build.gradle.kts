@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.kkyoungs.mvvm"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.kkyoungs.mvvm"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
