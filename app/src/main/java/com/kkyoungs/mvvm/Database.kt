@@ -31,7 +31,6 @@ class Database {
     }
 
     fun setOnDatabaseListener(databaseListener: DatabaseListener) {
-         println("DatabaseListener 구현 객체 참조 변수 세팅 (arg1 : %s)" +databaseListener.javaClass.simpleName)
         this.databaseListener = databaseListener
     }
 
